@@ -1,0 +1,27 @@
+@media screen and (max-width:46em) {
+    .Hamburger{
+    content: var(--mobile-menu);
+    cursor: pointer;
+    }
+    .Hamburger-close{
+        content:var(--mobile-menu-close);
+        cursor: pointer;
+    }
+    .nav-container .list-mobile{
+        position:absolute;
+        display:block;
+        top:20vh;
+        width:50%;
+        right:25vw;
+        text-align: center;;
+        
+    }
+    .list-mobile{
+        background: aliceblue;
+    }
+    .btn, .connect{
+        text-align:center;
+    }
+
+
+}

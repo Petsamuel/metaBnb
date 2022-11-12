@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
+import Belt from "./components/Belt";
+import Card from "./components/Cardui";
+import Section from "./components/section-3";
+import Model from "./components/Model";
+import "./App.css";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+      <div className="App">
+        <header>
+          <Header />
+        </header>
+        <main>
+          <div className="flex">
+            <Main />
+          </div>
+          <Belt />
+          <section className="section-2">
+            <p>Inspiration for your next adventure</p>
+          </section>
+          <div className="flex">
+            <Card />
+          </div>
+          <section className="section-3">
+           <div className="section-3-wrapper">
+            <Section/>
+           </div>
+          </section>
+          <Footer/>
+        </main>
+      </div>
+      <div className="modal">
+       <Model id="modal"/> 
+      </div>
+    </>
   );
 }
 
