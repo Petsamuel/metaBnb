@@ -24,7 +24,7 @@ function Header() {
                     <div className="container-flex ">
                         <ul className="list-mobile container-flex ">
                             <li className='list-item'><a href="/">Home</a></li>
-                            <li className='list-item'><a href="/">Place to Stay</a></li>
+                            <li className='list-item'><a href="/shop">Place to Stay</a></li>
                             <li className='list-item'><a href="/">NFT</a></li>
                             <li className='list-item'><a href="/">Community</a></li>
                             <div class="btn" onClick={Popper} >
