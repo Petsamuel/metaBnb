@@ -1,27 +1,125 @@
 @media screen and (max-width:46em) {
-    .Hamburger{
-    content: var(--mobile-menu);
-    cursor: pointer;
-    }
-    .Hamburger-close{
-        content:var(--mobile-menu-close);
+    .Hamburger {
+        content: var(--mobile-menu);
         cursor: pointer;
     }
-    .nav-container .list-mobile{
-        position:absolute;
-        display:block;
-        top:20vh;
-        width:50%;
-        right:25vw;
-        text-align: center;;
-        
+
+    .Hamburger-close {
+        content: var(--mobile-menu-close);
+        cursor: pointer;
     }
-    .list-mobile{
-        background: aliceblue;
+
+    .nav-container .list-mobile {
+        position: absolute;
+        display: block;
+        top: 105px;
+        width: 50%;
+        text-align: center;
     }
-    .btn, .connect{
-        text-align:center;
+
+    .list-item {
+        padding-top: 2em;
     }
+
+    .list-mobile {
+        background-color: #fff;
+        position: absolute;
+        left: 0px;
+        height: 100vh;
+        display: none;
+
+    }
+
+    .btn {
+        margin: 1em 3em;
+    }
+
+    .btn,
+    .connect {
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .hero-img {
+        row-gap: 5px;
+        column-gap: 0px;
+
+    }
+
+    .img-6 {
+        margin-top: 0px;
+    }
+
+    .img-3 {
+        margin-top: 0px;
+    }
+
+    .card {
+        grid-template-columns: auto auto;
+    }
+
+    .section-container {
+        flex-direction: column;
+    }
+
+    .section3-img {
+        width: 50%;
+    }
+    .footer-list{
+        flex-direction: column;
+    }
+    .belt{
+        flex-direction: column;
+        height:max-content;
+        gap:35px;
+        width:100%;
+    
+    }
+.hero-text{
+    font-size:45px;
+    width: 100%;
+    
+}
+.hero-paragraph {
+  width:100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  padding-top: 48px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

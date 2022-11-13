@@ -6,6 +6,13 @@ function Header() {
         let modal = document.querySelector(".modal");
         modal.classList.toggle("modal")
     }
+    function menubar(){
+       let menu = document.querySelector("#mobile-Hamburger");
+       let navlist = document.querySelector(".nav-container");
+       menu.classList.toggle("Hamburger-close")
+       navlist.classList.toggle("list-mobile")
+    }
+    
 
     return (
         <React.Fragment>
@@ -13,9 +20,9 @@ function Header() {
                 <div className="brand-container">
                     <div className="nav-brand"></div>
                 </div>
-                <div className="nav-container">
-                    <div className="container-flex">
-                        <ul className="container-flex list-mobile">
+                <div className="list-mobile nav-container">
+                    <div className="container-flex ">
+                        <ul className="list-mobile container-flex ">
                             <li className='list-item'><a href="/">Home</a></li>
                             <li className='list-item'><a href="/">Place to Stay</a></li>
                             <li className='list-item'><a href="/">NFT</a></li>
@@ -27,7 +34,7 @@ function Header() {
                     </div>
                 </div>
 
-                <div className='Hamburger'></div>
+                <div onClick={menubar} id="mobile-Hamburger" className="Hamburger"></div>
             </nav>
 
         </React.Fragment>

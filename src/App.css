@@ -18,8 +18,6 @@
 
 
 }
-
-
 .flex {
   display: flex;
   justify-content: center;
@@ -34,10 +32,10 @@
   color: black;
   border: none;
   outline: none;
+  border:1px solid red;
 }
 
 body {
-
   font-family: 'Red Rose';
 }
 
@@ -147,6 +145,9 @@ ul li {
   border-radius: 10px;
   height: 3em;
   display: flex;
+  align-items: center;
+  align-self: center;
+ 
 
 }
 
@@ -158,7 +159,7 @@ ul li {
   color: #FFFFFF;
   align-self: center;
   margin: 2em;
-
+  width:100%;
 
 }
 
@@ -334,7 +335,7 @@ ul li {
 
 .Footer-section {
   width: 100%;
-  height: 322px;
+  /* height: 322px; */
   left: 0px;
   top: 2568px;
   background: #1D1D1E;
