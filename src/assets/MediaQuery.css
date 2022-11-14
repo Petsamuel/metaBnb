@@ -16,6 +16,9 @@
         width: 50%;
         text-align: center;
     }
+    .intro{
+        margin:1em 3em;
+    }
 
     .list-item {
         padding-top: 2em;
@@ -44,9 +47,7 @@
     }
 
     .hero-img {
-        row-gap: 5px;
-        column-gap: 0px;
-
+        margin: 1.5em 3em;
     }
 
     .img-6 {
@@ -91,7 +92,14 @@
   padding-top: 48px;
 
 }
+.section-2 p{
+    margin: 1em 3em;
 
+}
+.card-container .card{
+    margin: 1em 3em;
+
+}
 
 
 
