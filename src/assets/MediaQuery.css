@@ -20,6 +20,7 @@
    .intro{
     width:100%;
    }
+  
    .nav-brand {
     content: var(--logo1);
     width: 80%;
@@ -30,12 +31,16 @@
     }
 
     .list-mobile {
-        background-color: #fff;
+        background-color: #A02279;
         position: absolute;
         right: 0px;
         height: 100vh;
         display: none;
     }
+    .list-item a{
+        color:white;
+    }
+ 
     .flex{
         flex-direction:column;
         justify-content: center;
@@ -43,6 +48,9 @@
 
     .btn {
         margin: 0em 1em;
+    }
+    .btn a {
+        font-size:14px;
     }
 
     .btn,
@@ -75,7 +83,7 @@
     }
 
     .section3-img {
-        width: 50%;
+        width: 100%
     }
    
     .belt{
@@ -138,7 +146,46 @@
             margin-bottom:1em;
             padding:1px 3em;
             }
+            
+/* .mobile-list-wrapper{
+    background:#A02279;
+    width:100%;
+    display:flex;
+    padding:2em;
+    justify-content: space-between;
 
+} */
+/* .unordered-list-mobile{
+    
+    display:block;
+    color:white;
+    position:absolute;
+    padding-top:50px;
+    z-index:1;
+    width:50%;
+
+}.unordered-list-mobile>li{
+color:white;
+padding:10px;
+background:#A02279; 
+box-shadow: 1px 1px 1px black;
+width:150px;
+display:none;
+
+}
+.line-wrapper{
+width:max-content;
+height:max-content;
+z-index:10;
+}
+.line{
+    border:1px solid white;
+    width:20px;
+    height:3px;
+    margin:2px 2px;
+    display:block;
+    z-index:50;
+} */
 }
 
 @media screen and (max-width:36em){
@@ -150,5 +197,8 @@
     }
     .footer-list{
         flex-direction: column;
+    }
+    .btn{
+        width: 110px;
     }
 }
