@@ -14,18 +14,16 @@ function App() {
   return (
     <>
     
-      <div className="App">
+      <div className="flex">
         <header>
-          <Header />
+        <Header />
+         
         </header>
         <main>
           <div className="flex">
             <Main />
           </div>
           <Belt />
-          <section className="section-2">
-            <p>Inspiration for your next adventure</p>
-          </section>
           <div className="flex">
             <Card />
           </div>

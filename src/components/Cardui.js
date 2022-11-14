@@ -6,7 +6,7 @@ function Cardui() {
 
     return (
         <>
-            <div className='container card-container'>
+            <div className=''>
                 <div className='card'>
                     {
                         Data.map((card) => (

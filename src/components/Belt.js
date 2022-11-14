@@ -16,6 +16,13 @@ function Belt() {
                     <span className="bnb3"></span>
                 </div>
             </div>
+
+            <section className="section-2">
+            <p>Inspiration for your next adventure</p>
+          </section>
+
+
+
         </>
     )
 }
