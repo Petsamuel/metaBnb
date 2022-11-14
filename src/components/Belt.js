@@ -18,7 +18,7 @@ function Belt() {
             </div>
 
             <section className="section-2">
-            <p>Inspiration for your next adventure</p>
+            Inspiration for your next adventure
           </section>
 
 

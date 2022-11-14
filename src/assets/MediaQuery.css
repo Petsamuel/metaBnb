@@ -118,5 +118,7 @@
     
     .card {
         grid-template-columns: auto;
+        place-content: center;
+        place-items: center;
     }
 }

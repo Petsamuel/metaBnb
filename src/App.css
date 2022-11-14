@@ -258,7 +258,9 @@ ul li {
   line-height: 60px;
   color: #000000;
   width: 100%;
-  margin:1.5em;
+  margin:1em 0em;
+  padding-top:1em;
+  text-align:center;
 
 }
 
