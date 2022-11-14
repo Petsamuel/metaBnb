@@ -77,9 +77,7 @@
     .section3-img {
         width: 50%;
     }
-    .footer-list{
-        flex-direction: column;
-    }
+   
     .belt{
         flex-direction: column;
         height:max-content;
@@ -112,6 +110,35 @@
     width:75%;
 }
 
+.overlay-card{
+   left:15%;
+ 
+    }
+    .connect-wallet {
+        border: 1px solid #CFD8DC;
+        flex: none;
+        align-self: stretch;
+        padding:2em;
+        display: flex;
+        justify-content: space-between;
+        
+        }
+  
+        .metamask{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            /* width: 234px; */
+            height: 68px;
+            background: #F8F9FA;
+            border: 1px solid #CFD8DC;
+            border-radius: 12px;
+            padding:0px 5px;
+            margin-bottom:1em;
+            padding:1px 3em;
+            }
+
 }
 
 @media screen and (max-width:36em){
@@ -120,5 +147,8 @@
         grid-template-columns: auto;
         place-content: center;
         place-items: center;
+    }
+    .footer-list{
+        flex-direction: column;
     }
 }
