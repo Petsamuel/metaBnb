@@ -1,16 +1,17 @@
 import React from 'react'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Categories from '../components/categories';
 
 function Location() {
     return (
         <>
-            <div>
+            <header>
                 <Header/>
 
-            </div>
+            </header>
             <div>
-                
+                <Categories/>
             </div>
             <div>
                 <Footer/> 

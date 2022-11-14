@@ -1,7 +1,6 @@
 import React from 'react';
 import "../assets/modal.css";
 
-
 function Model() {
     
     function Close(){

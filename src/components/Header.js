@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
 
 function Header() {
     function Popper() {
@@ -27,13 +26,13 @@ function Header() {
                             <li className='list-item'><a href="/shop">Place to Stay</a></li>
                             <li className='list-item'><a href="/">NFT</a></li>
                             <li className='list-item'><a href="/">Community</a></li>
-                            <div class="btn" onClick={Popper} >
-                            <a href="#" className="connect">Connect Wallet</a>
-                        </div>
+                             
                         </ul> 
                     </div>
                 </div>
-
+                <div class="btn" onClick={Popper} >
+                            <a href="#" className="connect">Connect Wallet</a>
+                        </div>
                 <div onClick={menubar} id="mobile-Hamburger" className="Hamburger"></div>
             </nav>
 
