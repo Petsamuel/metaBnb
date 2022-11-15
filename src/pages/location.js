@@ -17,7 +17,9 @@ function Location() {
             <div>
                 <Footer/> 
             </div>
-            <Model/>
+            <div className="modal">
+       <Model id="modal"/> 
+      </div>
         </>
     )
 }

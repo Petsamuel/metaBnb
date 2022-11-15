@@ -2,10 +2,11 @@
 (max-width:68em) {
     nav {
         display: flex;
-        width: 100%;
-        justify-content: space-around;
+
+        justify-content: space-evenly;
         align-items: center;
-        padding: 2rem ;
+        padding: 1.5rem ;
+       
       }
 
     .Hamburger {
@@ -61,14 +62,15 @@
     }
 
     .btn a {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .btn,
     .connect {
         text-align: center;
+        
     }
-
+   
     .container {
         flex-direction: column;
     }
