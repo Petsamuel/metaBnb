@@ -54,9 +54,9 @@ main, section{
 nav {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  padding: 2rem 0rem;
+  padding: 2rem 5rem;
 }
 .list-container{
   justify-content:center;
@@ -69,7 +69,9 @@ nav {
 .nav-container {
   display: flex;
   justify-content: space-between;
+  width:55%;
 }
+
 
 .container-flex {
   display: flex;
@@ -79,8 +81,9 @@ nav {
 ul li {
   padding: 0px 20px;
   align-self: center;
-
   padding-top:5px;
+  width:100%;
+
 }
 li{
   padding-top:5px;
@@ -528,12 +531,12 @@ border-radius: 8px;
 padding:5px;
 z-index:1;
 }
-.primary{
-  background-color:#A02279;
+.primary > path{
+  color:#A02279;
 
 }
-.orange{
-  background-color:orange;
+.orange > path{
+  color:orange;
 }
 
 .starsLayout{
