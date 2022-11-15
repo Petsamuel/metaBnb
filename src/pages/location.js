@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Categories from '../components/categories';
+import Model from '../components/Model';
 
 function Location() {
 
@@ -16,6 +17,7 @@ function Location() {
             <div>
                 <Footer/> 
             </div>
+            <Model/>
         </>
     )
 }

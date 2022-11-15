@@ -17,7 +17,7 @@ function Header() {
         <React.Fragment>
             <nav>
                 <div className="brand-container">
-                    <div className="nav-brand"></div>
+                    <a href="/"><div className="nav-brand"></div></a>
                 </div>
                 <div className="list-mobile nav-container">
                     <div className="container-flex ">

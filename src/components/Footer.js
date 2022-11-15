@@ -7,9 +7,9 @@ function Footer() {
                 <div className="Footer-wrapper ">
                     <div className='section-container footer-top-gap'>
                         <div>
-                            <div className="Brand-logo">
+                           <a href="/"> <div className="Brand-logo">
 
-                            </div>
+</div></a>
                             <div className='social-network'>
                                 <i className='facebook'></i>
                                 

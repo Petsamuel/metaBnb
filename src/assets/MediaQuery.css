@@ -102,8 +102,7 @@
         flex-direction: column;
         height: max-content;
         gap: 35px;
-        width: 100%;
-
+        /* width: 100%; */
     }
 
     .hero-text {
