@@ -1,5 +1,5 @@
 import React from 'react'
-import Data from "./dataui"
+import {Location} from "./dataui"
 import RatingStar from "./Stars"
 
 
@@ -36,7 +36,7 @@ function Categories() {
             <div className='card-container'>
                 <div className='card'>
                     {
-                        Data.map((card) => (
+                        Location.map((card) => (
                             <div className='card-content' key={card.id}>
                                 <div>
                                     <img src={card.image} className="card-image" id={card.id} alt="card-img"/>
@@ -59,6 +59,7 @@ function Categories() {
                     }
 
                 </div>
+                
             </div>
         </>
     )

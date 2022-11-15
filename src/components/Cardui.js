@@ -1,4 +1,4 @@
-import Data from "./dataui";
+import {cardValue} from "./dataui";
 
 import React from "react";
 import RatingStar from "./Stars"
@@ -11,7 +11,7 @@ function Cardui() {
             <div className='card-container'>
                 <div className='card'>
                     {
-                        Data.map((card) => (
+                        cardValue.map((card) => (
                             <div className='card-content' key={card.id}>
                                 <div>
                                     <img src={card.image} className="card-image" id={card.id} alt="card-img"/>
