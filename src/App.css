@@ -79,7 +79,26 @@ nav {
 ul li {
   padding: 0px 20px;
   align-self: center;
+
+  padding-top:5px;
 }
+li{
+  padding-top:5px;
+  width:100%;
+}
+.category-list:hover{
+  background-color:white;
+  color:black;
+}
+.mobile-list-wrapper{
+  justify-content: space-between;
+  display:flex;
+  margin:0em 4em;
+  align-content: center;
+  width:100%;
+  align-items: center;
+ 
+ }
 
 .mobile-menu {
   display: none;
@@ -510,11 +529,11 @@ padding:5px;
 z-index:1;
 }
 .primary{
-  color:#A02279;
+  background-color:#A02279;
 
 }
 .orange{
-  color:orange;
+  background-color:orange;
 }
 
 .starsLayout{

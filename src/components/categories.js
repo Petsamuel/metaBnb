@@ -4,8 +4,8 @@ import Data from "./dataui"
 
 function Categories() {
     function Popper(){
-        let list_container=document.querySelector(".list-container");
-        list_container.classList.toggle("list-container")
+        let list_container=document.querySelector(".unordered-list-mobile");
+        list_container.classList.toggle("trigger")
         
     }
     return (
@@ -18,15 +18,15 @@ function Categories() {
                          <span className="line"></span>
                         
                     </div>
-                    <ul className="container-flex  list-container unordered-list-mobile">
-                        <li className='list-items'>Restaurant</li>
-                        <li>Cottage</li>
-                        <li>Castle</li>
-                        <li>Fantasy City</li>
-                        <li>Beach</li>
-                        <li>Cabins</li>
-                        <li>Off-grid</li>
-                        <li>Farm</li>
+                    <ul className="container-flex unordered-list-mobile ">
+                        <li className='list-items category-list'>Restaurant</li>
+                        <li className="category-list">Cottage</li>
+                        <li className="category-list">Castle</li>
+                        <li className='category-list'>Fantasy City</li>
+                        <li className='category-list'>Beach</li>
+                        <li className='category-list'>Cabins</li>
+                        <li className='category-list'>Off-grid</li>
+                        <li className='category-list'>Farm</li>
                     </ul>
                    <div> <input type="text"  className="locate" Placeholder="Location" /></div>
                 </div>

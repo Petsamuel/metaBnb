@@ -127,8 +127,13 @@
 
     .overlay-card {
         left: 15%;
-
     }
+    .overlay-card-content{
+        left: 20%;
+     
+        width: 75%;
+        
+        }
 
     .connect-wallet {
         border: 1px solid #CFD8DC;
@@ -174,15 +179,21 @@
         position:absolute;
         padding:4px 5px;
         background-color: #A02279;
-        display:block;
+        display: none;
         width:150px;
         margin-top:2.5em;
+        
       }
       .list-container{
-        /* display:none; */
         color:white;
         padding-top:10px;
       }
+.trigger{
+    display:block;
+}
+ul li{
+    color:white;
+}
 
 }
 
