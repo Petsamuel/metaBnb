@@ -1,5 +1,6 @@
 import React from 'react'
 import Data from "./dataui"
+import RatingStar from "./Stars"
 
 
 function Categories() {
@@ -49,6 +50,9 @@ function Categories() {
                                         <div className='card-duration'>{card.Duration}</div>
                                         <div className="card-place">{card.place}</div>
                                     </div>
+                                    <div className="starsLayout details-2">
+                                    <RatingStar />
+                                </div>
                                 </div>
                             </div>
                         ))

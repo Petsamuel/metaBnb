@@ -1,6 +1,5 @@
 import Data from "./dataui";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faStar } from "@fortawesome/free-solid-svg-icons";
+
 import React from "react";
 import RatingStar from "./Stars"
 

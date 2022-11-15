@@ -4,11 +4,11 @@ import Footer from '../components/Footer';
 import Categories from '../components/categories';
 
 function Location() {
+
     return (
         <>
             <header>
                 <Header/>
-
             </header>
             <div>
                 <Categories/>
