@@ -509,4 +509,14 @@ border-radius: 8px;
 padding:5px;
 z-index:1;
 }
+.primary{
+  color:#A02279;
 
+}
+.orange{
+  color:orange;
+}
+
+.starsLayout{
+  padding:4px 0px;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Data from "./dataui"
 
+
 function Categories() {
     function Popper(){
         let list_container=document.querySelector(".list-container");
