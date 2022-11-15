@@ -1,5 +1,12 @@
 @media screen and (max-width:46em),
 (max-width:68em) {
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem ;
+      }
 
     .Hamburger {
         content: var(--mobile-menu);
