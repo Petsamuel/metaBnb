@@ -89,8 +89,9 @@
         grid-template-columns: auto auto;
     }
 
-    .section-container {
-        flex-direction: column;
+        .section-container {
+            flex-direction: column;
+            text-align: center;
     }
 
     .section3-img {
@@ -136,7 +137,7 @@
         left: 15%;
     }
     .overlay-card-content{
-        left: 20%;
+        left: 15%;
      
         width: 75%;
         
@@ -188,7 +189,9 @@
         background-color: #A02279;
         display: none;
         width:150px;
+        top:12.5em;
         margin-top:2.5em;
+        box-shadow: 1px 1px solid black;
         
       }
       .list-container{
@@ -214,10 +217,19 @@ ul li{
 
     .footer-list {
         flex-direction: column;
+        text-align:center;
     }
 
     .btn {
         width: 110px;
     }
+.copy-right, .copy-footer{
+    text-align:center;
+    width:100%;
+    padding:5px ;
+}
+.social-network{
+    align-items:center;
+}
     
 }

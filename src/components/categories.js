@@ -9,6 +9,7 @@ function Categories() {
         list_container.classList.toggle("trigger")
         
     }
+    
     return (
         <>
             <nav className="upper-gap">
