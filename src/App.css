@@ -15,6 +15,8 @@
   --twitter:url("./assets/images/Vector-1.png");
   --mobile-menu:url('./assets/images/icon-menu.svg');
   --mobile-menu-close:url("./assets/images/icon-close-menu.svg");
+  --settings: url("./assets/images/setting-5.png") no-repeat scroll right 7px center;
+
 
 
 }
@@ -525,11 +527,12 @@ align-items: flex-start;
   cursor: pointer;
 }
 .locate{
-  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  background:var(--settings);
 border: 1px solid #B4B4B4;
 border-radius: 8px;
-padding:5px;
+padding:7px;
 z-index:1;
+height:40px;
 }
 .primary > path{
   color:#A02279;
