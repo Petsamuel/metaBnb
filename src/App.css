@@ -271,11 +271,11 @@ ul li {
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 1em;
-  margin: 1em 3em;
+  margin: 1em 0em;
 }
 
 .card-container {
-  margin: 2em;
+  margin: 2em ;
   display: flex;
   justify-content: center;
 }
@@ -367,6 +367,7 @@ ul li {
 
 .section3-img{
   content:url("./assets/images/Frame 59546-1.png");
+  width:100%;
 }
 
 .section-title{
@@ -508,3 +509,4 @@ border-radius: 8px;
 padding:5px;
 z-index:1;
 }
+
